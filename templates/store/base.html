@@ -53,12 +53,12 @@
                         {% with total_qty=basket|length %}
                             <div id="basket-qty" class="d-inline-flex">
                                 {% if total_qty > 0 %}
-                                    {{total_qty}}
+                                    {{ total_qty }}
                                 {% else %}
                                     0
                                 {% endif %}
                             </div>
-                        {% endwith %}
+                        {% endwith %} 
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-cart3" viewBox="0 0 16 16">
                             <path
